@@ -1,0 +1,16 @@
+<h2>Upload Survey Questions File</h2>
+
+<input type="file" id="fileInput">
+<pre id="preview"></pre>
+
+<form action="upload.php" method="POST" enctype="multipart/form-data">
+  <input type="file" name="surveyFile" required>
+  <button type="submit">Upload Survey</button>
+</form>
+
+<hr>
+
+<h2>Live Survey Results</h2>
+<div id="bars"></div>
+
+<script src="script.js"></script>
